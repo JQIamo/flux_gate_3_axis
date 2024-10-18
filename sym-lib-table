@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "flux_gate_symbols")(type "KiCad")(uri "${KIPRJMOD}/flux_gate_symbols.kicad_sym")(options "")(descr ""))
+)

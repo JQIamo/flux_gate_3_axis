@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "248b3ea2-1875-4815-aee0-ed2b456a048e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 66.04 22.86)
+		(size 29.21 15.875)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fc35a1c-a3f3-40c3-a55b-4318842f9824")
+		(property "Sheetname" "x_y_axis"
+			(at 66.04 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "x_y_axis.kicad_sch"
+			(at 66.04 39.3196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flux_gate_3_axis"
+				(path "/248b3ea2-1875-4815-aee0-ed2b456a048e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.845 23.495)
+		(size 28.575 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3a6b590-6da5-4a66-8327-43b67ac869e3")
+		(property "Sheetname" "power"
+			(at 29.845 22.7834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 29.845 39.3196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flux_gate_3_axis"
+				(path "/248b3ea2-1875-4815-aee0-ed2b456a048e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 22.86)
+		(size 29.21 15.875)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1bb5106-bd4e-4ab7-819c-f112eadaac14")
+		(property "Sheetname" "z_axis"
+			(at 102.87 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "z_axis.kicad_sch"
+			(at 102.87 39.3196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flux_gate_3_axis"
+				(path "/248b3ea2-1875-4815-aee0-ed2b456a048e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
